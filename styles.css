@@ -14,6 +14,7 @@ body{
 
 .navbar__s1{
     display: flex;
+    font-weight: 600;
 }
 
 .navbar__logo{
@@ -25,13 +26,13 @@ body{
     align-items: center;
     padding: 2px;
     gap: 40px;
-    font-weight: bold;
 }
 
 .navbar__s3{
     display: flex;
     align-items: center;
     gap: 5px;
+    font-weight: 600;
 }
 
 .navbar__s3-button{
@@ -51,7 +52,7 @@ body{
 }
 
 .heading__title{
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 40px;
 }
 
@@ -62,7 +63,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 15px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .features p{
@@ -87,10 +88,14 @@ body{
 /* Search Bar */
 
 .searchbar{
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
+}
+.searchbar__outline{
+    width: 50%;
     padding: 5px;
-    width: 40%;
-    border-radius: 30px;
+    border-radius: 50px;
     display: flex;
     justify-content: space-between;
     border: solid #E0E0E0 2px;
@@ -98,20 +103,46 @@ body{
 }
 
 .searchbar img{
-    width: 40px;
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 10px;
 }
 
 .searchbar input{
-    width: 70%;
+    width: 80%;
     padding: 15px;
     border: none;
 }
 
+.searchbar input:focus{
+    outline: none;
+}
+
 .searchbar__searchbutton{
     font-weight: bold;
-    /* width: 10%; */
+    width: 13%;
     padding: 20px;
     background-color: #84E9BD;
     border: none;
     border-radius: 30px;
+}
+
+.searchbar__searchbutton:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* Ad */
+
+.ad__section{
+    margin-top: 50px;
+}
+
+.ad__container{
+    width: 80%;
+}
+
+.ad__container img{
+    width: 100%;
 }
