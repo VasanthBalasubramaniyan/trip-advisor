@@ -8,7 +8,7 @@ body{
 
 .navbar{
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     justify-content: space-around;
 }
 
@@ -45,6 +45,73 @@ body{
 
 /* Heading */
 
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+
 .heading__title{
     font-weight: bolder;
+    font-size: 40px;
+}
+
+/* Features */
+
+.features{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-weight: bold;
+}
+
+.features p{
+    padding: 2px;
+    align-items: center;
+}
+
+.features p:hover{
+    border-bottom: solid black 2px;
+}
+
+.features img{
+    width: 25px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.features__first{
+    border-bottom: solid black 2px;
+}
+
+/* Search Bar */
+
+.searchbar{
+    margin-top: 30px;
+    padding: 5px;
+    width: 40%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: solid #E0E0E0 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.searchbar img{
+    width: 40px;
+}
+
+.searchbar input{
+    width: 70%;
+    padding: 15px;
+    border: none;
+}
+
+.searchbar__searchbutton{
+    font-weight: bold;
+    /* width: 10%; */
+    padding: 20px;
+    background-color: #84E9BD;
+    border: none;
+    border-radius: 30px;
 }
