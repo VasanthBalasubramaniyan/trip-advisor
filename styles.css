@@ -22,7 +22,6 @@ body{
 
 .navbar__s2{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 2px;
     gap: 40px;
@@ -42,4 +41,10 @@ body{
     font-weight: bold;
     border: none;
     border-radius: 30px;
+}
+
+/* Heading */
+
+.heading__title{
+    font-weight: bolder;
 }
