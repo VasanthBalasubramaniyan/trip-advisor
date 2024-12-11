@@ -137,12 +137,54 @@ body{
 
 .ad__section{
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .ad__container{
-    width: 80%;
+    width: 70%;
+    background-color: #D8D2FB;
+    border-radius: 10px;
+    position: relative;
 }
 
 .ad__container img{
     width: 100%;
+}
+
+.ad__section-desc{
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+.ad__section-footer{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+
+.ad__section-button{
+    background-color: #8120D9;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 40px;
+    border: solid #D8D2FB 2px;
+}
+
+.ad__section-footer img{
+    width: 20px;
+}
+
+.ad__section-button:hover{
+    opacity: 0.7;
+}
+
+/* Choice Section */
+
+.choice__section-container{
+    
 }
