@@ -317,36 +317,34 @@ body{
 }
 
 /* Explore Section */
-
-.explore__section-bg-color{
-    background-color: #F2F1EC;
-}
 .explore__section{
+    background-color: #F2F1EC;
+    padding: 10px;
+}
+
+.explore__section-container{
     width: 70%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 .explore__section-head{
     margin-bottom: 20px;
-    padding: 5px;
-}
-
-.explore__section-head h3{
-    margin-top: 20px;
 }
 
 .explore__section-cards{
     display: flex;
+    justify-content: space-between;
 }
 
-.explore__section-card p{
-    font-weight: 600;
-    width: 80%;
-    margin: auto;
-    /* text-align: center; */
+.explore__section-card{
+    width: 30%;
 }
 
 .explore__section-card img{
-    width: 200px;
     border-radius: 10px;
+    width: 100%;
+}
+
+.explore__section-card p{
+    text-align: center;
 }
