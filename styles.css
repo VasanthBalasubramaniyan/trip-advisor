@@ -68,6 +68,7 @@ body{
 
 .features p{
     padding: 2px;
+    display: flex;
     align-items: center;
 }
 
@@ -347,4 +348,90 @@ body{
 
 .explore__section-card p{
     text-align: center;
+}
+
+/* destination__section */
+.destination__section{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.destination__section-cards{
+    margin-top: 20px;;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.destination__section-card{
+    position: relative;
+    width: 25%;
+    padding: 2px;
+}
+
+.destination__section__image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.destination__section_card-title{
+    width: 30%;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+/* Wanderer section */
+
+.wanderer__section{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    background-color: #F2ECF9;
+    display: flex;
+}
+
+.wanderer__section__image-container{
+    width: 50%;
+}
+
+.wanderer__section__image-container img{
+    width: 100%;
+}
+
+.wanderer__section-desc{
+    text-align: center;
+    margin: auto;
+}
+
+.wanderer__section-icon{
+    width: 30px;
+}
+
+.wanderer__section-desc-container{
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+
+.wanderer__section-desc-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.wanderer__section-desc-container h2{
+    margin-top: 10px;
+}
+
+.wanderer__section-button{
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
 }
