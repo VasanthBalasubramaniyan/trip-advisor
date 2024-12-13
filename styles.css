@@ -7,9 +7,14 @@ body{
 }
 
 .navbar{
+    background-color: white;
     display: flex;
+    padding: 10px;
     margin-top: 20px;
     justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .navbar__s1{
@@ -434,4 +439,53 @@ body{
     color: white;
     padding: 15px;
     border-radius: 30px;
+    cursor: pointer;
 }
+
+.wanderer__section-button:hover{
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+}
+
+/* Awards Section */
+
+.awards__section{
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #FFF7E1;
+}
+
+.awards__section-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.awards__section-header{
+    display: flex;
+    align-items: center;
+}
+
+.awards__section-head{
+    width: 60%;
+    font-size: larger;
+}
+
+.awards__section-button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.awards__section-image{
+    width: 50%;
+}
+
+.awards__section-image img{
+    width: 100%;
+}
+
