@@ -479,6 +479,7 @@ body{
     padding: 15px;
     border-radius: 30px;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .awards__section-image{
@@ -489,3 +490,38 @@ body{
     width: 100%;
 }
 
+/* Footer Section */
+.footer__section{
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+.footer__section-container{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.footer__section-s1{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__section-s1 li{
+    list-style: none;
+}
+
+.footer__section-s2{
+    width: 50%;
+}
+
+.footer__section-end{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__section-end img{
+    width: 30px;
+}
